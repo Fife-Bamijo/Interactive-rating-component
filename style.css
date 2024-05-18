@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: "Overpass", sans-serif;
+}
+
+.first-container {
+  width: 330px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 30px 30px;
+  border-radius: 20px;
+}
+
+.first-container img {
+  margin: 0;
+  width: 17px;
+  background-color: hsl(214, 20%, 21%);
+  padding: 14px;
+  border-radius: 50%;
+}
+
+.first-container h3 {
+  font-size: 30px;
+  margin: 0;
+  padding: 15px 0;
+  padding-top: 25px;
+  color: hsl(217, 39%, 94%);
+}
+
+.first-container p {
+  margin: 0;
+  padding-bottom: 20px;
+  color: hsl(217, 12%, 63%);
+  font-size: 13px;
+  padding-right: 20px;
+  line-height: 1.5;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: hsl(214, 20%, 21%);
+  padding: 16px 21px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  color: hsl(217, 12%, 63%);
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.submit-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 320px;
+  margin-top: 30px;
+  padding: 13px 0;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: white;
+}
+
+.live {
+  background-color: white;
+}
+
+.thanks-container {
+  display: none;
+  background-color: hsl(214, 20%, 21%);
+  width: 350px;
+  padding: 50px 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+
+.thanks-container div img {
+  width: 160px;
+  margin: 0 auto;
+}
+
+.thanks-container small {
+  width: 125px;
+  margin: 0 auto;
+  margin-top: 25px;
+  display: block;
+  font-size: 12px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: hsl(25, 65%, 33%);
+}
+
+.thanks-container h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 25px;
+  color: hsl(217, 39%, 94%);
+}
+
+.thanks-container p {
+  text-align: center;
+  color: hsl(217, 12%, 63%);
+  line-height: 1.5;
+  font-size: 13px;
+  padding: 0 20px;
+}
